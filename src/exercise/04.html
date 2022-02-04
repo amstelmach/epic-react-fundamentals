@@ -41,10 +41,10 @@
     }
 
     const element = (
-      <div className="container">
-        <Message subject="world" />
-        <Message greeting="goodbye" subject={5} />
-      </div>
+      <>
+        <Message greeting="hello" subject="world" />
+        <Message greeting="goodbye" subject="world" />
+      </>
     )
 
     // 💯 This is only the first step to making actual React components. The rest is in the extra credit!
